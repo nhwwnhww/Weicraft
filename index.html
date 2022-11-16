@@ -4,36 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
     <title>Minecraft File</title>
 </head>
 <body>
-    <h1>Java 安装</h1>
-    <a href="./java/jre-8u333-windows-x64 (2).exe" download="">Java</a>
-    <a href="https://java.com/en/download/manual.jsp">Mac 点这里</a>
-    <h1>HMCL(盗版) Windows</h1>
-    <a href="./HMCL/HMCL-3.5.3.exe" download="HMCL-3.5.3.exe">HMCL</a>
-    <h1>HMCL(盗版) MAC</h1>
-    <a href="./HMCL_MAC/HMCL-3.5.3.jar" download="HMCL-3.5.3.jar">HMCL</a>    
-    <h1>client (正版)</h1>
-    <a href="./minecraft_forge/forge-1.12.2-14.23.5.2859-installer.jar" download="forge-1.12.2-14.23.5.2859-installer.jar">minecraft forge(1.12)</a>
-    <h1>Mods</h1>
-    <a href="./1_12_Mods/FallingTree-1.12.2.jar" download="FallingTree-1.12.2.jar">FallingTree</a>
-    <br>
-    <a href="./1_12_Mods/twilightforest-1.12.2-3.11.1021-universalforest.jar" download="twilightforest-1.12.2-3.11.1021-universalforest.jar">twilightforest</a>
-    <br>
-    <a href="./1_12_Mods/ForgeXaeros-Minimap-1.12.2.jar" download="ForgeXaeros-Minimap-1.12.2.jar">小地图</a>
-    <br>
-    <a href="./1_12_Mods/InventoryTweaks-1.64+dev.146forest.jar" download="InventoryTweaks-1.64+dev.146forest.jar">背包整理</a>
-    <br>
-    <h2>MORE UPDATE MODs</h2>
-    <a href="./1_12_Mods/morechest.jar" download="morechest.jar">更多箱子</a>
-    <br>
-    <a href="./1_12_Mods/AoA3-3.3.6.jar" download="AoA3-3.3.6.jar">虚无世界3（不要下载，服务器带不动）</a>
-    <br>
-    <a href="./1_12_Mods/OreExcavation-1.4.137.jar" download="OreExcavation-1.4.137.jar">连锁挖矿</a>
-    <br>
-    <a href="./1_12_Mods/Recipe1_jei_1.12.2-4.16.1.302.jar" download="Recipe1_jei_1.12.2-4.16.1.302.jar">合成表</a>
-    <br>
-
+    <div class="container">
+        <div class="row">
+            <div class="card col" style="width: 18rem;">
+                <img src="./image/java_img.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                <h5 class="card-title">Install Java to your computer</h5>
+                <p class="card-text">Java is required to run Minecraft</p>
+                <a href="https://www.java.com/en/download/" class="btn btn-primary">Windows version</a>
+                <hr>
+                <a href="https://www.java.com/en/download/apple.jsp" class="btn btn-secondary">Mac version</a>
+                </div>
+            </div>
+            <div class="card col" style="width: 18rem;">
+                <img src="./image/minecraft_img.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                <h5 class="card-title">Install Minecraft launcher</h5>
+                <p class="card-text">Two Minecraft launchers are available to download by clicking the button. If you don't have a Minecraft account, HMCL will be the best option; it is a pirate version of Minecraft, and you can play Minecraft for free using this software. You also can download a genuine version of Minecraft mod version launcher Forge.</p>
+                <a href="https://hmcl.huangyuhui.net/download/" class="btn btn-primary">HMCL</a>
+                <hr>
+                <a href="./minecraft_forge/forge-1.12.2-14.23.5.2859-installer.jar" download="forge-1.12.2-14.23.5.2859-installer.jar" class="btn btn-secondary">Minecraft forge(1.12)</a>
+                </div>
+            </div>  
+            <div class="card col" style="width: 18rem;">
+                <img src="./image/mod_img.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Server Mod</h5>
+                    <p class="card-text">Here is all the mods that required install if you want to join our minecraft server</p>
+                    <a href="./1_12_Mods/FallingTree-1.12.2.jar" download="FallingTree-1.12.2.jar" class="btn btn-primary">FallingTree</a>
+                    <hr>
+                    <a href="./1_12_Mods/twilightforest-1.12.2-3.11.1021-universalforest.jar" download="twilightforest-1.12.2-3.11.1021-universalforest.jar" class="btn btn-primary">twilightforest</a>
+                    <hr>
+                    <a href="./1_12_Mods/ForgeXaeros-Minimap-1.12.2.jar" download="ForgeXaeros-Minimap-1.12.2.jar" class="btn btn-primary">mini map 小地图</a>
+                    <hr>
+                    <a href="./1_12_Mods/InventoryTweaks-1.64+dev.146forest.jar" download="InventoryTweaks-1.64+dev.146forest.jar" class="btn btn-primary">sort bag 背包整理</a>
+                    <hr>
+                    <a href="./1_12_Mods/morechest.jar" download="morechest.jar" class="btn btn-primary">More chest 更多箱子</a>
+                    <hr>
+                    <a href="./1_12_Mods/OreExcavation-1.4.137.jar" download="OreExcavation-1.4.137.jar" class="btn btn-primary">Ore excavation 连锁挖矿</a>
+                    <hr>
+                    <a href="./1_12_Mods/Recipe1_jei_1.12.2-4.16.1.302.jar" download="Recipe1_jei_1.12.2-4.16.1.302.jar" class="btn btn-primary">table 合成表</a>
+                </div>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>
